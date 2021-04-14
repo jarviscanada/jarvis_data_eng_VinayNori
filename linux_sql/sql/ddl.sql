@@ -16,10 +16,6 @@ CREATE TABLE IF NOT EXISTS PUBLIC.host_info
 
 );
 
--- DML
--- INSERT statement
-INSERT INTO host_info (1, "spry-framework-236416.internal",1,"X86_64","Intel(R) Xeon(R) CPU @ 2.30GHz",2300.000,256,601324,"2019-05-29 17:49:53");
-
 CREATE TABLE IF NOT EXISTS PUBLIC.host_usage
 (
     "timestamp"     TIMESTAMP NOT NULL,
@@ -33,6 +29,4 @@ CREATE TABLE IF NOT EXISTS PUBLIC.host_usage
     FOREIGN KEY (host_id) REFERENCES Public.host_info (id)
 );
 
--- DML
--- INSERT statement
-INSERT INTO host_usage ("2019-05-29 16:53:28", 1,256,95,0,0,31220);
+
