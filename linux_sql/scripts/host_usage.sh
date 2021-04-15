@@ -6,6 +6,7 @@ psql_port=$2
 db_name=$3
 psql_user=$4
 psql_password=$5
+hostname=$(hostname -f)
 
 #validate number of arguments
 if [ "$#" -ne 5 ]; then
@@ -15,12 +16,12 @@ if [ "$#" -ne 5 ]; then
 fi
 
 
-memory_free= $(vmstat -t | sed -n 3p | awk '{print $4}'|xargs)
-cpu_idle=$(vmstat -t | awk '{print $15}'| tail -1 | xargs)
-cpu_kernel=$(vmstat -t | sed -n 3p | awk '{print $14}'|xargs)
-disk_io=$(vmstat -d | sed -n 3p | awk '{print $10}'|xargs)
-disk_available=$(df -BM | sed -n 2p | awk '{print $4}' | grep -o -E '[0-9]+'|xrgs)
-timestamp= $(date -u '+%Y-%m-%d %H:%M:%S')
+memory_free=$(vmstat -t|sed -n 3p|awk '{print $4}'|xargs)
+cpu_idle=$(vmstat -t|awk '{print $15}'|tail -1|xargs)
+cpu_kernel=$(vmstat -t|sed -n 3p|awk '{print $14}'|xargs)
+disk_io=$(vmstat -d|sed -n 3p|awk '{print $10}'|xargs)
+disk_available=$(df -BM|sed -n 2p|awk '{print $4}'|grep -o -E '[0-9]+'|xargs)
+timestamp=$(date -u '+%Y-%m-%d %H:%M:%S')
 
 export PGPASSWORD="$psql_password"
 
