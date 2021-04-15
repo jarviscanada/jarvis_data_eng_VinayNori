@@ -1,0 +1,5 @@
+memory_free= $(vmstat -t | sed -n 3p | awk '{print $4}'|xargs)
+cpu_idle=$(vmstat -t | awk '{print $15}'| tail -1 | xargs)
+cpu_kernel=$(vmstat -t | sed -n 3p | awk '{print $14}'|xargs)
+disk_io=$(vmstat -d | sed -n 3p | awk '{print $10}'|xargs)
+disk_available=$(df -BM | sed -n 2p | awk '{print $4}' | grep -o -E '[0-9]+'|xrgs)
