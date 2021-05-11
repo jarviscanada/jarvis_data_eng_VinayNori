@@ -1,6 +1,6 @@
 package ca.jrvs.apps.practice;
 
-public interface RegexExc {
+public interface RegexExp {
     /**
      * return true if filename extension is a jpg or jpeg (case-sensitive)
      * @param filename
