@@ -8,7 +8,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.apache.log4j.BasicConfigurator;
 
-public class javaGrepImp implements JavaGrep{
+public class JavaGrepImp implements JavaGrep{
     static final Logger logger = LoggerFactory.getLogger(JavaGrep.class);
 
     private String regex;
@@ -23,7 +23,7 @@ public class javaGrepImp implements JavaGrep{
 
         BasicConfigurator.configure();
 
-        javaGrepImp javaGrepImp = new javaGrepImp();
+        JavaGrepImp javaGrepImp = new JavaGrepImp();
         javaGrepImp.setRegex(args[0]);
         javaGrepImp.setRootPath(args[1]);
         javaGrepImp.setOutFile(args[2]);

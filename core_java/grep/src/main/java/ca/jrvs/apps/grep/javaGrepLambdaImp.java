@@ -12,7 +12,7 @@ import org.apache.log4j.BasicConfigurator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class javaGrepLambdaImp extends javaGrepImp {
+public class javaGrepLambdaImp extends JavaGrepImp {
 
     final Logger logger = LoggerFactory.getLogger(JavaGrep.class);
 
@@ -68,7 +68,7 @@ public class javaGrepLambdaImp extends javaGrepImp {
         try {
             javaGrepLambdaImp.process();
         } catch (Exception ex) {
-            javaGrepImp.logger.error("Unable to run Java Grep!", ex);
+            JavaGrepImp.logger.error("Unable to run Java Grep!", ex);
         }
     }
 }
