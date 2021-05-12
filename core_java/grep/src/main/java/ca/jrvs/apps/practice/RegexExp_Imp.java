@@ -18,11 +18,5 @@ public class RegexExp_Imp implements RegexExp {
         return filename.matches("([a-z0-9A-z]|[\\-])+\\.jp[e]?g$");
     }
 
-    public static void main(String[] args) {
-        RegexExp_Imp imp = new RegexExp_Imp();
-        System.out.println("Valid Ip :" + imp.matchIp("1.1.23.45"));
-        System.out.println("isEmpty Line :" + imp.isEmptyLine(" "));
-        System.out.println("match jpeg:" + imp.matchJpeg("image.jpeg"));
-    }
 
 }
