@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 import org.apache.log4j.BasicConfigurator;
 
 public class javaGrepImp implements JavaGrep{
-    final Logger logger = LoggerFactory.getLogger(JavaGrep.class);
+    static final Logger logger = LoggerFactory.getLogger(JavaGrep.class);
 
     private String regex;
     private String rootPath;

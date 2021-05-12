@@ -1,5 +1,6 @@
 package ca.jrvs.apps.practice;
 
+import org.slf4j.LoggerFactory;
 import java.util.List;
 import java.util.function.Consumer;
 import java.util.logging.Logger;
@@ -9,7 +10,7 @@ import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class LambdaStreamExc_Imp implements LambdaStreamExc {
-    private final Logger logger = LoggerFactory.getLogger(LambdaStreamExc.class);
+    private final Logger logger = (Logger) LoggerFactory.getLogger(LambdaStreamExc.class);
     @Override
     public Stream<String> createStrStream(String... strings) {
         return Stream.of(strings);
