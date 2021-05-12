@@ -27,7 +27,7 @@ $ java -cp target/*.jar <class_file> <regex/pattern> <directory> <out_file>
 ```
 $ docker pull norivinay/grep
 
-$ docker run --rm -v <directory> -v <out_file> barlowza/grep <regex/pattern> <directory> <out_file>
+$ docker run --rm -v <directory> -v <out_file> norivinay/grep <regex/pattern> <directory> <out_file>
 ```
 
 # Implementation
