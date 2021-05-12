@@ -52,9 +52,8 @@ listFiles(getRootPath()).stream()
 
 ## Performance Issue
 The performance issue with `JavaGrepImp` was dealing with Lists and looping through
-each individual peace causing the memory to get bloated due to creating an Object for each piece.
-Lists occupy a lot of space in heap memory when its size becomes arbitrarily large and hence throwing an OutOfMemoryError exception.
-This was solved by using Streams were used instead of lists for the implementation enabling the application to process huge data with a small heap memory.
+each individual peace causing the heap memory to get bloated due to creating an Object for each piece and hence throwing an OutOfMemoryError exception..
+This was solved by using Streams instead of lists enabling the application to process huge data with a small heap memory.
 
 # Testing
 Testing was done manually by creating files for output the test for certain cases that it could run against.
