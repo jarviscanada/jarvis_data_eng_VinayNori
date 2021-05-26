@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9dc01847-f9fc-4d77-93fb-e5fc8c2454e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../jdbc/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc/.idea/libraries/Maven__org_postgresql_postgresql_42_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc/jdbc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc/scripts/psql_docker.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc/sql/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc/sql/customer.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc/sql/database.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc/sql/orders.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc/sql/product.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc/sql/salesperson.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc/sql/stored_proc.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc/src/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc/src/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc/src/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc/src/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc/src/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc/src/.idea/src.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc/src/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc/src/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc/src/main/java/ca/jrvs/apps/jdbc/DatabaseConnectionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc/src/main/java/ca/jrvs/apps/jdbc/JDBCExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc/target/classes/ca/jrvs/apps/jdbc/DatabaseConnectionManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc/target/classes/ca/jrvs/apps/jdbc/JDBCExecutor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1s4jDCDpC1b8rEaWxLI5lUK6DKU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jdbc" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="open" />
+    </option>
+  </component>
+  <component name="RunAnythingContextRecentDirectoryCache">
+    <option name="paths">
+      <recentPaths value="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/practice" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.JavaGrepImp">
+    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.jrvs.apps.practice.HelloWorld" />
+      <module name="grep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.jrvs.apps.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaGrepImp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.jrvs.apps.grep.JavaGrepImp" />
+      <module name="grep" />
+      <option name="PROGRAM_PARAMETERS" value=".*Romeo.*Juliet.* ./data/txt ./out/grep.txt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.jrvs.apps.grep.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegexExp_Imp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.jrvs.apps.practice.RegexExp_Imp" />
+      <module name="grep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.jrvs.apps.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="javaGrepImp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.jrvs.apps.grep.javaGrepImp" />
+      <module name="grep" />
+      <option name="PROGRAM_PARAMETERS" value=".*Romeo.*Juliet.* ./data/txt ./out/grep.txt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.jrvs.apps.grep.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="javaGrepLambdaImp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.jrvs.apps.grep.javaGrepLambdaImp" />
+      <module name="grep" />
+      <option name="PROGRAM_PARAMETERS" value=".*Romeo.*Juliet.* ./data/txt ./out/grep.txt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.jrvs.apps.grep.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.HelloWorld" />
+      <item itemvalue="Application.javaGrepImp" />
+      <item itemvalue="Application.javaGrepLambdaImp" />
+      <item itemvalue="Application.RegexExp_Imp" />
+      <item itemvalue="Application.JavaGrepImp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.JavaGrepImp" />
+        <item itemvalue="Application.javaGrepLambdaImp" />
+        <item itemvalue="Application.javaGrepImp" />
+        <item itemvalue="Application.RegexExp_Imp" />
+        <item itemvalue="Application.HelloWorld" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9dc01847-f9fc-4d77-93fb-e5fc8c2454e7" name="Default Changelist" comment="" />
+      <created>1620138635050</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620138635050</updated>
+      <workItem from="1620138636697" duration="392000" />
+      <workItem from="1620139052949" duration="3596000" />
+      <workItem from="1620294848129" duration="1319000" />
+      <workItem from="1620296221051" duration="639000" />
+      <workItem from="1620297107119" duration="568000" />
+      <workItem from="1620755685167" duration="15813000" />
+      <workItem from="1621008258998" duration="4978000" />
+    </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1620296013658</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1620296013658</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commit">
+      <created>1620758013956</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1620758013956</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commit">
+      <created>1620820646585</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1620820646585</updated>
+    </task>
+    <task id="LOCAL-00004" summary="commit">
+      <created>1620826632882</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1620826632882</updated>
+    </task>
+    <task id="LOCAL-00005" summary="commit">
+      <created>1620831358848</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1620831358848</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+  </component>
+</project>
