@@ -15,7 +15,7 @@ vinaynori/twitter post|get|delete [options]
 
 # Design
 ## UML diagram
-![UML Diagram](./assets/UML.JPG)
+![UML Diagram](./assets/UML.png)
 
 In the application there are a few components to talk about:
 * ### App/Main
