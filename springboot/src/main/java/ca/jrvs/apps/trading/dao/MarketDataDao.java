@@ -5,15 +5,6 @@ import ca.jrvs.apps.trading.model.domain.IexQuote;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectReader;
-import java.io.IOException;
-import java.net.URI;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Optional;
-import java.util.stream.Collectors;
-import java.util.stream.StreamSupport;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
@@ -28,6 +19,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataRetrievalFailureException;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
+
+import java.io.IOException;
+import java.net.URI;
+import java.util.*;
+import java.util.function.Consumer;
+import java.util.stream.Collectors;
+import java.util.stream.StreamSupport;
 
 @Repository
 public class MarketDataDao implements CrudRepository<IexQuote, String> {
@@ -82,9 +80,11 @@ public class MarketDataDao implements CrudRepository<IexQuote, String> {
     @Override
     public List<IexQuote> findAllById(Iterable<String> tickers) {
         logger.info(tickers.toString());
-        tickers.forEach(t -> {
-            if (t.length() < 2 || t.length() > 5 || t.matches(".*[0-9]+.*")) {
-                throw new IllegalArgumentException("Ticker is not of proper format");
+        tickers.forEach(new Consumer<String>() {
+            public void accept(String t) {
+                if (t.length() < 2 || t.length() > 5 || t.matches(".*[0-9]+.*")) {
+                    throw new IllegalArgumentException("Ticker is not of proper format");
+                }
             }
         });
 
