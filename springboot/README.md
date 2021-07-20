@@ -47,6 +47,7 @@ Then navigate to http://localhost:8080/swagger-ui.html to view and use the endpo
 # Implemenation
 ## Architecture
 ![Architecture](./assets/diagram.jpg)
+
 The DTOs are organized as followed:
 * Quote: 
 ```
